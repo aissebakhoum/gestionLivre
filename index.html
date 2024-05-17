@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<h2><span>B</span>ienvenue <span>C</span>hez <span>B</span>AKHOUM <span>L</span>ibrary</h2>
+
+<button id="myBtn"><i class="fas fa-plus-square">Ajouter un nouveau livre</i></button>
+
+<div id="myModal" class="modal">
+
+  
+  <div class="modal-container">
+    <button class="close-modal">X</button>
+    <div class="form" id="myForm">
+        <form action="">
+            <input type="text" id="titre" name="titre" placeholder="Entrez le titre du livre">
+            <input type="text" id="auteur" name="auteur" placeholder="Entrez l'auteur du livre">
+            <button type="submit" id="bouton">Enregistrer</button>
+            
+        </form>
+        <div class="book-container">
+          <ul class="book-list"></ul>
+        </div>
+    </div>
+    <div id="mesLivres">
+      
+    </div>
+  </div>
+
+</div>
+
+<script src="modal.js"></script>
+
+
+</body>
+</html>
